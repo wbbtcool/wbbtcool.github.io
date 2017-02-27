@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,7 +32,7 @@
 
   
   
-  <link href="/MyBlog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -66,9 +66,9 @@
 
 
 
-<link href="/MyBlog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/MyBlog/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -80,7 +80,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/MyBlog/favicon.ico?v=5.1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
 
 
 
@@ -89,7 +89,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="WangBin's Blog">
-<meta property="og:url" content="https://wbbtcool.github.io/MyBlog/index.html">
+<meta property="og:url" content="https://wbbtcool.github.io/index.html">
 <meta property="og:site_name" content="WangBin's Blog">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WangBin's Blog">
@@ -99,14 +99,14 @@
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/MyBlog/',
+    root: '/',
     scheme: 'Muse',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -120,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="https://wbbtcool.github.io/MyBlog/"/>
+  <link rel="canonical" href="https://wbbtcool.github.io/"/>
 
 
 
@@ -129,7 +129,7 @@
   <title> WangBin's Blog </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
@@ -162,7 +162,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/MyBlog/"  class="brand" rel="start">
+      <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">WangBin's Blog</span>
         <span class="logo-line-after"><i></i></span>
@@ -190,31 +190,41 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/MyBlog/" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/MyBlog/archives" rel="section">
+          <a href="/archives" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            归档
           </a>
         </li>
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/MyBlog/tags" rel="section">
+          <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
@@ -247,12 +257,12 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://wbbtcool.github.io/MyBlog/MyBlog/2017/02/27/从零开始/">
+    <link itemprop="mainEntityOfPage" href="https://wbbtcool.github.io/2017/02/27/从零开始/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Wang Bin">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/MyBlog/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -269,7 +279,7 @@
             
               
                 
-                <a class="post-title-link" href="/MyBlog/2017/02/27/从零开始/" itemprop="url">
+                <a class="post-title-link" href="/2017/02/27/从零开始/" itemprop="url">
                   从零开始
                 </a>
               
@@ -284,9 +294,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-27T20:50:41+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-27T20:50:41+08:00">
                 2017-02-27
               </time>
             
@@ -305,11 +315,11 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">分类于</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/MyBlog/categories/心情/" itemprop="url" rel="index">
+                  <a href="/categories/心情/" itemprop="url" rel="index">
                     <span itemprop="name">心情</span>
                   </a>
                 </span>
@@ -346,7 +356,12 @@
       
         
           
-            
+            <p>这是我第一个博客，也是故事的开始。</p>
+<p>春天，万物滋长，生机勃勃，是一切的开始。计算机技术，一个让普通人望而却步的话题，在他们眼中就是复杂的代名词，也是神秘的潘多拉魔盒。它时常有很多的派生词，互联网、云计算、人工智能，褪去这些华丽的外衣下，只剩下一个核心–不断迭代。这是人类发展留下的智慧结晶，以后也必将会越来越辉煌。</p>
+<p>初入开发，我接触的一切都是新鲜的、鲜活的，技术的革新每天都在发生，每天都如获新生。我想，我也在不断迭代吧。每天我会犯非常多的错误，是的，是错误。每个开发者可能终其一生都会与错误相伴，我们不怕犯错，因为那是我们的宿命。引用美剧《西部世界》中的一句话，”进化，形成这个星球上有感情和知觉的生命体用的唯一工具，就是错误”。我们不断的分享错误，让这些把我们折磨的死去活来的错误，成为他人解决问题的方向。</p>
+<p>分享，这应该就是我写博客的初衷吧。</p>
+<p>从零开始，不忘初心。</p>
+
           
         
       
@@ -410,7 +425,7 @@
       <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/MyBlog/images/avatar.gif"
+               src="/images/avatar.gif"
                alt="Wang Bin" />
           <p class="site-author-name" itemprop="name">Wang Bin</p>
            
@@ -421,27 +436,27 @@
         
           
             <div class="site-state-item site-state-posts">
-              <a href="/MyBlog/archives">
+              <a href="/archives">
                 <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
           
             <div class="site-state-item site-state-categories">
-              
+              <a href="/categories">
                 <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">Kategorien</span>
-              
+                <span class="site-state-item-name">分类</span>
+              </a>
             </div>
           
 
           
             <div class="site-state-item site-state-tags">
-              <a href="/MyBlog/tags">
+              <a href="/tags">
                 <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">Tags</span>
+                <span class="site-state-item-name">标签</span>
               </a>
             </div>
           
@@ -491,11 +506,11 @@
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Muse
   </a>
@@ -539,42 +554,42 @@
 
 
   
-  <script type="text/javascript" src="/MyBlog/lib/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  <script type="text/javascript" src="/MyBlog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  <script type="text/javascript" src="/MyBlog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  <script type="text/javascript" src="/MyBlog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/MyBlog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/MyBlog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-
-  
-
-
-  <script type="text/javascript" src="/MyBlog/js/src/utils.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/MyBlog/js/src/motion.js?v=5.1.0"></script>
-
-
-
-  
-  
-
-  
 
   
 
 
-  <script type="text/javascript" src="/MyBlog/js/src/bootstrap.js?v=5.1.0"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
 
 
 
