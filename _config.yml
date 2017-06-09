@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -66,16 +66,17 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/wbbtcool/wbbtcool.github.io.git
-  branch: master
-
+# algolia
 algolia:
   applicationID: 'GW3J3BOW6D'
   apiKey: 'efdb14304fc89a8b8b891a8714982a02'
   adminApiKey: 'c5d4c27b2f3cb1c245b03f077f75b680'
   indexName: 'test'
   chunkSize: 5000
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: https://github.com/wbbtcool/wbbtcool.github.io.git
+  branch: master
