@@ -9,6 +9,12 @@ tags:
 - DragonBonesCPP
 ---
 
+一直说写博客，但是一直没有写（主要是因为懒-.-!）。终于下定决心写了，就从公司最近cocos2dx项目用到的东西开始，给自己做一个知识的梳理和技术的备忘。
+
+为什么使用骨骼动画呢？主要是公司的cocos2dx项目有很多需要使用动画展示的地方，那么实现细腻的动画效果，就需要使用很多帧动画。帧数多，图片大，移动端的性能开销过大，所以想要采用骨骼动画代替帧动画。骨骼动画将效果拆散为一个个骨骼，在资源占用上大大减少，并且通过编辑骨头、插槽等模块，能实现和帧动画差不多的效果，非常符合项目的需求。
+
+制作骨骼动画需要使用骨骼编辑软件，目前比较成熟的编辑软件是DragonBones和spine，前者是免费的，后者收费的。当然是spine要专业一些，DragonBones功能也追赶上了spine的步伐，所以选择DragonBones（主要是买不起spine，哈哈）。接下来，搞起。
+
 ## 前期准备
 * [cocos2dx](https://github.com/cocos2d/cocos2d-x)
 * 下载[DragonBonesCPP](https://github.com/DragonBones/DragonBonesCPP)，目前支持5.0数据格式标准。
@@ -120,9 +126,9 @@ $(call import-module,.)
 #### 3.运行cocos compile命令，编译打包apk
 `$ cocos compile -p android --android-studio`
 
-#### 4.安装apk到手机
+#### 4.安装apk到手机，运行。
 
-
+这样，cocos2dx集成DragonBonesCPP库就完成了。大功告成！
 
 ## 参考
 1. [DragonBones Cocos2d-x Library](https://github.com/DragonBones/DragonBonesCPP/tree/master/Cocos2DX_3.x)
